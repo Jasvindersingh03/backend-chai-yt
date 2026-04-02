@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "learning backend with create project-backend with the help of chai or code channel on youtube in playlist is name chai or backend video no. 6th",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -12,5 +13,8 @@
     "javascript"
   ],
   "author": "Jasvinder Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
